@@ -4,13 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Map1 {
-  public static void main(String[] args) {
-//    CodingBat.Map1 m = new CodingBat.Map1();
-//    Map<String, String> map = new HashMap<>();
-//
-//    m.mapBully(map);
-  }
-
+  
   public Map<String, String> mapBully(Map<String, String> map) {
     if (map.containsKey("a")) {
       map.put("b", map.get("a"));
